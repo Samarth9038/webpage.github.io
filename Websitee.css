@@ -1,0 +1,173 @@
+*{margin : 0;padding: 0}
+/**{box-sizing: inherit}*/
+
+#top{
+    background-color: white;
+    padding: 10px;
+}
+
+#content-area{
+    margin-left: 50px;
+}
+
+#opener{
+    position: absolute;
+    text-align: right;
+    scale: 22%;
+    top: 0;
+    margin-left: 63px;
+    margin-top: -92px;
+}
+#opener:hover{
+    animation-name: siebaropener;
+}
+
+@keyframes sidebaropener {
+    0% {left: -240px}
+    100% {left:0}
+
+}
+
+#topbar{
+    background-color: white;
+    padding: 10px;
+    padding-left: 50px;
+    font-family: "Arial Black";
+    font-weight: bolder;
+}
+
+.parentCssClass{display:flex;flex-direction:row;align-items: center;}
+#searchbar{
+    margin-left: 550px;
+    background-color: #dedbdb;
+    padding: 10px;
+    width: 270px;
+    border-radius: 100px;
+    border-color: #dedbdb;
+    border: 0;
+    background-image: url("./search-icon-png-9969.png");
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+    padding-left: 40px;
+}
+
+#contentpage{
+    background-color: #dedbdb;
+    height: 100vh;
+    padding: 30px;
+}
+
+@keyframes example {
+  0%   {rotate: 0;}
+  50%  {scale: 200%;}
+  100%  {rotate: 360deg;scale: 100%;}
+}
+
+
+#market {
+    position: relative;
+    background-color: #6a6262;
+    padding: 5px;
+    height: 100px;
+    width: 25%;
+    border-radius: 20px;
+    margin: 10px;
+}
+#market:hover {
+            animation-name: example;
+            animation-duration: 1s;
+}
+
+
+
+#current-custom{
+    position: relative;
+    background-color: #9c9990;
+    padding: 5px;
+    height: 100px;
+    width: 25%;
+    border-radius: 20px;
+    margin: 10px;
+
+
+}
+
+#current-custom:hover {
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+#active-custom{
+    position: relative;
+    background-color: #cfd2b2;
+    padding: 5px;
+    height: 100px;
+    width: 25%;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+#active-custom:hover {
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+#churn-rate{
+    position: relative;
+    background-color: #e1cedb;
+    padding: 5px;
+    height: 100px;
+    width: 25%;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#churn-rate:hover {
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+.textual{
+    font-size: 20px;
+    font-family: "Arial Black";
+}
+
+#Logotext{
+    font-size: 36px;
+    font-family: "Arial Black";
+    color: white;
+}
+
+.bttn{
+    width: 40px;
+    height: 40px;
+    background-image: url("Sidebar.png");
+    background-size: 40px, 40px;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 0;
+    background-color: #4b3b47;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 5px;
+}
+
+#vetical{
+    position: fixed;
+    background-color: #4b3b47;
+    width: 300px;
+    height: 100vh;
+    text-align: center;
+    left: -240px;
+    /*animation: sidebaropener 1s ease-out infinite reverse;*/
+    z-index: 9;
+}
+
+#logo{
+    width: 150px;
+    text-align: center;
+    margin-top: 40px;
+}
